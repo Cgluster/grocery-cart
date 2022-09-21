@@ -1,3 +1,14 @@
-.App {
+* {
+  margin: 0;
+  border: 0;
+}
+
+.cart-header h1 {
   text-align: center;
+  padding-bottom: 1rem;
+}
+
+.home-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
