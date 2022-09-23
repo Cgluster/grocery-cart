@@ -8,12 +8,13 @@ function Cart() {
     return (
         <div className="cart">
             <div className="cart-left">
-                <div>
                 <h3>Your Cart</h3>
+                <div className="cart-display">
                 {cart?.map((product) => (
                     <CartProduct
                     key={product.id}
                     id={product.id}
+                    image={product.image}
                     name={product.name}
                     price={product.price}
                     quantity={product.quantity}
