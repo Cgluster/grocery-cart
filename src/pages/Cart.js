@@ -1,6 +1,7 @@
 import Total from "../components/Total";
 import CartProduct from "../components/CartProduct";
 import { useSelector } from "react-redux";
+import Checkout from "./Checkout";
 
 function Cart() {
     const cart = useSelector((state) => state.cart);
@@ -25,6 +26,10 @@ function Cart() {
 
             <div className="cart-right">
                 <Total />
+            </div>
+
+            <div>
+                <Checkout />
             </div>
         </div>
     )
