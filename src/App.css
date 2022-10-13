@@ -16,11 +16,16 @@
 
 .header-icons {
   display: flex;
-  padding: 1rem 1rem 1rem 10rem;
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
 }
 
-.homeicon-header {
-  padding-right: 1rem;
+.homeicon-header,
+.shopping-cart {
+  margin-right: 2rem;
 }
 
 #home-icon:hover,
